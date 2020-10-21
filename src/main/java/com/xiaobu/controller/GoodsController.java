@@ -29,7 +29,7 @@ public class GoodsController {
         for(int i= 1 ; i <= 40 ; i ++){
             Goods goods = new Goods();
             goods.setGoodsId((long) i);
-            goods.setGoodsName( "shangpin" + i);
+            goods.setGoodsName( "shangping" + i);
             goods.setGoodsType((long) (i+1));
             goodsMapper.insert(goods);
         }
